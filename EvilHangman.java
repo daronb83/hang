@@ -8,7 +8,7 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
 
-class EvilHangman implements IEvilHangmanGame {
+public class EvilHangman implements IEvilHangmanGame {
 
     private Set<String> wordSet;
     private TreeSet<Character> guessed;
