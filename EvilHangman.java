@@ -179,14 +179,14 @@ class EvilHangman implements IEvilHangmanGame {
     /**
      * @return the current key
      */
-    String getCurKey() {
+    public String getCurKey() {
         return curKey;
     }
 
     /**
      * @return the set of characters that have been guessed
      */
-    TreeSet<Character> getGuessed() {
+    public TreeSet<Character> getGuessed() {
         return guessed;
     }
 }
