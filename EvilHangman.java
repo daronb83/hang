@@ -17,7 +17,7 @@ class EvilHangman implements IEvilHangmanGame {
     /**
      * Cheats at hangman
      */
-    EvilHangman() {
+    public EvilHangman() {
         guessed = new TreeSet<>();
         wordSet = new HashSet<>();
         curKey = "";
