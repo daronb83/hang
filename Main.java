@@ -48,7 +48,7 @@ public class Main {
         hang.startGame(dictionary, wordLength);
         Set possibleWords = null;
         char guess;
-        System.out.println("Welcome to Hangman!");
+        System.out.println("\nWelcome to Hangman!");
 
         while (guesses > 0) {
             System.out.println("You have " + guesses + " guess(es) left");
@@ -93,7 +93,7 @@ public class Main {
 
         System.out.println("\nYou lose!");
         if (possibleWords != null) {
-            System.out.println("The word was: " + (possibleWords.iterator().next()));
+            System.out.println("The word was: " + (possibleWords.iterator().next()) + "\n");
             //System.out.println("\nRemaining words " + possibleWords);
         }
     }
