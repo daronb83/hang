@@ -54,6 +54,7 @@ class EvilHangman implements IEvilHangmanGame {
         }
         catch (IOException e) {
             e.printStackTrace();
+            System.exit(0);
         }
     }
 
@@ -189,4 +190,3 @@ class EvilHangman implements IEvilHangmanGame {
         return guessed;
     }
 }
-
