@@ -144,7 +144,7 @@ class EvilHangman implements IEvilHangmanGame {
     private int getWeight(String key, char guess) {
         int weight = 0;
 
-        for (int i = 1; i < key.length(); i++) {
+        for (int i = 0; i < key.length(); i++) {
 
             if (key.charAt(key.length() - i - 1) == guess) {
                 weight += key.length() + i;
