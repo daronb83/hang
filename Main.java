@@ -59,6 +59,7 @@ public class Main {
             System.out.print("\nGuess a letter: ");
 
             Scanner sc = new Scanner(System.in);
+            sc.useDelimiter("");
             guess = sc.next().charAt(0);
             guess = Character.toLowerCase(guess);
 
@@ -112,4 +113,3 @@ public class Main {
 
 
 }
-
